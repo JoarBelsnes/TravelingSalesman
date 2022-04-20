@@ -1,4 +1,4 @@
-module github.com/JoarBelsnes/TravelingSalesman/Salesman
+module github.com/JoarBelsnes/TravelingSalesman
 
 
 go 1.18

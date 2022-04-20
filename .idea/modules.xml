@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dijkstra/Dijkstra.iml" filepath="$PROJECT_DIR$/Dijkstra/Dijkstra.iml" />
       <module fileurl="file://$PROJECT_DIR$/TravelingSalesman.iml" filepath="$PROJECT_DIR$/TravelingSalesman.iml" />
     </modules>
   </component>
