@@ -1,4 +1,4 @@
-package Dijkstra
+package Salesman
 
 import "testing"
 
