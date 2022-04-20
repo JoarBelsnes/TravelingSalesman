@@ -1,4 +1,4 @@
-package Dijkstra
+package main
 
 import (
 	"errors"
