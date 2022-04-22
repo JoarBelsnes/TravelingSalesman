@@ -233,7 +233,9 @@ func findPath(graph Graph) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("Shortest distance ", best.Distance, " following path ", best.Path)
+	fmt.Println("Cheapest travel from Timisoara to Bucharest is costs", best.Distance, "Rumensk leu following path ", best.Path)
+
+	// cannot find longest distance because of it would be infinite
 	/*
 		best, err = graph.Longest(3, 13)
 		if err != nil {
