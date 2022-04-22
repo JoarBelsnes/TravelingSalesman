@@ -234,11 +234,11 @@ func findPath(graph Graph) {
 		log.Fatal(err)
 	}
 	fmt.Println("Shortest distance ", best.Distance, " following path ", best.Path)
-
-	best, err = graph.Longest(3, 13)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println("Longest distance ", best.Distance, " following path ", best.Path)
-
+	/*
+		best, err = graph.Longest(3, 13)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println("Longest distance ", best.Distance, " following path ", best.Path)
+	*/
 }
