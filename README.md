@@ -10,7 +10,7 @@ Test result of dijkstra algorithm of the TravelingSalesman problem
 
 Update 25.04.2022:
 Have researched for different types of algorithms, and how to solve it differently from dijkstra, and what i found out is that most sources use a graph method to place their "towns" and only need x and y values to place them. I havent found out how to convert the picture in the Mandatory 3 on towns in Romania and their arcs and verrticies to a x and y format. 
-Examples other than dijkstra i have looked at: /n
+Examples other than dijkstra i have looked at: + /n
   https://handcraftsman.wordpress.com/2012/04/02/go-implementation-of-a-travelling-salesperson-problem-solver/ /n
   https://levelup.gitconnected.com/a-nearest-neighbor-solution-in-go-to-the-traveling-salesman-problem-d4d56125b571 /n
   https://github.com/dyxj/go-tsp /n
