@@ -158,7 +158,7 @@ type BestPath struct {
 
 //BestPaths contains the list of best solutions
 type BestPaths []BestPath
-
+//creating graph of Romanian cities and their edges
 func Salesman() {
 	graph := NewGraph()
 	graph.AddVertex(0)
@@ -228,6 +228,7 @@ func Salesman() {
 	graph.AddArc(19, 18, 86)
 	findPath(*graph)
 }
+//finding shortest path from node 3 to 13
 func findPath(graph Graph) {
 	best, err := graph.Shortest(3, 13)
 	if err != nil {
